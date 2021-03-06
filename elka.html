@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <meta charset="utf-8">
-  <title>Фон</title>
-  <img src="images/elka2.jpg" class="center-img" />
-  <style>
-   body {
-    background: #c7b39b url(images/elka2.jpg); /* Цвет фона и путь к файлу */
-    color: #fff; /* Цвет текста */
-    .center-img {
-  display: block;
-  margin: 0 auto;
-}
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Фоновое изображение</title>
+  <style type="text/css">
+   BODY {
+    margin: 0; /* Убираем отступы в браузере */
    }
-  </style> 
+   #toplayer {
+    background: url(images/elka.jpg) repeat-x; /* Параметры фона */
+    height: 69px; /* Высота слоя */
+    border-bottom: 2px solid maroon; /* Параметры линии внизу */
+   }
+  </style>
  </head>
- <body>
-  <p>...</p>
+ <body> 
+  <div id="toplayer">
+   <img src="images/logo.gif" width="279" height="69" alt="Логотип сайта">
+  </div>
  </body>
 </html>
