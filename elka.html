@@ -1,17 +1,16 @@
-<!DOCTYPE html>
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Елочка онлайн</title>
-  <style type="text/css">
-   BODY {
-    margin: 30; /* отступы в браузере */
-   }
+    <style type="text/css">
+  /*BODY {
+    margin: 30; /* отступы в браузере  }
    #toplayer {
-    background: #66a240; /* Цвет фона */
-    height: 2000px; /* Высота слоя */
+    background: #66a240; /* Цвет фона 
+    height: 2000px; /* Высота слоя 
    }
-    
+   */
+
     button.build-name {
     /*padding: 10px 30px;*/
     /*margin-left: 30px;*/
@@ -30,15 +29,16 @@
   </style>
  </head>
  <body> 
+
          <div class="container-fluid">
             <div class="row">
                 <div class="col-4">
-                    <button class="add_button ball_1" style="background: url(images/ball_1.png);">+</button>
-                    <button class="add_button ball_2" style="background: url(images/ball_2.png);">+</button>
-                    <button class="add_button ball_3" style="background: url(images/ball_3.png);">+</button>
-                    <button class="add_button ball_4" style="background: url(images/ball_4.png);">+</button>
+                    <button class="add_button ball_1" style="background: url(images/ball1.jpg);">+</button>
+                    <button class="add_button ball_2" style="background: url(images/ball2.jpg);">+</button>
+                    <button class="add_button ball_3" style="background: url(images/ball3.jpg);">+</button>
+                    <button class="add_button ball_4" style="background: url(images/ball4.jpg);">+</button>
 
-                    <button class="build-name">построить имя</button>
+                    <button class="build-name">Построить имя</button>
                 </div>
             </div>
             <div class="row">
@@ -50,7 +50,10 @@
             </div>
         </div>
   <div id="toplayer">
-  <img src="images/elka2.jpg" width="600" height="800" /*alt="Логотип сайта"*/ align="middle" style="display: block; margin-left: auto; margin-right: auto;"/>
+  <img src="images/elka2.jpg" width="600" height="800" align="middle" draggable="false" style="display: block; margin-left: auto; margin-right: auto;"/>
+          <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/elka.js"></script>
   </div>
  </body>
 </html>
