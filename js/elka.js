@@ -131,8 +131,8 @@ function add_ball(type) {
     elem.attr("src", "images/" + type + ".png");
     elem.css("position", "absolute");
     elem.css("z-index", 1000);
-    elem.css("width", 15);
-    elem.css("height", 15);
+    elem.css("width", 25);
+    elem.css("height", 25);
     elem.attr("draggable", false);
     elem.mousedown((e) => {
         event.stopPropagation();
